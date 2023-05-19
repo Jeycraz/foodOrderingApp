@@ -1,0 +1,57 @@
+.headercard-container{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: rgb(102, 51, 15);
+    padding: 0.5rem 0rem ;
+    cursor: pointer;
+}
+
+.headercard-icon{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.headercard-text{
+    color: white;
+    width: 40%;
+    text-align: center;
+}
+
+.bump{
+    animation: bump 300ms ease-in-out;
+}
+
+@keyframes bump {
+    0%{
+        transform: scale(1);
+    }
+
+    10%{
+        transform: scale(0.9);
+    }
+
+    30%{
+        transform: scale(1.1);
+    }
+
+    50%{
+        transform: scale(1.15);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media (max-width:680px) {
+    .headercard-container{
+        width: 50%;
+    }
+    
+}

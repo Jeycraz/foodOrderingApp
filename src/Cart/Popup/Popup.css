@@ -1,0 +1,92 @@
+.popup-container-black{
+    display: none;
+}
+
+.popup-button-container p{
+    margin: 0px;
+}
+
+.popup-container-black.active{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(19, 19, 19,0.75);
+}
+
+.popup-inner-container{
+    background-color: white;
+    width: 80%;
+    border-radius: 20px;
+    padding: 1rem;
+    position: relative;
+}
+
+.total-amount{
+    display: flex;  
+    justify-content: space-between;
+}
+
+.total-amount h1{
+    font-size: 25px;
+}
+
+.popup-button-container{
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.button-order-container{
+    cursor: pointer;
+    background-color: rgb(165, 85, 27) ;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+}
+
+.button-close-container{
+    cursor: pointer;
+    color: rgb(165, 85, 27) ;
+    border: 1px solid rgb(165, 85, 27) ;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+    border-radius: 50px;
+}
+
+.order-finish{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: white;
+    scale: 0.95;
+    transition: top 0.25s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order-finish.active{
+    top: 0;
+}
+
+.order-finish p{
+    color: green;
+    text-align: center;
+}
+
+.order-finish .button-close-container{
+    width: max-content;
+    margin: 0px;
+}

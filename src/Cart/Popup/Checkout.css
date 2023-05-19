@@ -1,0 +1,21 @@
+.checkout-form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-form-container.invalid{
+    background-color: rgb(254, 196, 196);
+}
+
+.checkout-form-container.valid{
+    background-color: rgb(208, 247, 208);
+}
+
+.form-approve{
+    color: darkgreen;
+}
+
+.text-error{
+    color: red;
+}
+

@@ -1,0 +1,20 @@
+.lists-container{
+    width: 80%;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem 0rem;
+}
+
+.container p{
+    color: white;
+    text-align: center;
+}
+
+.error-text{
+    color: red;
+    text-align: center;
+}

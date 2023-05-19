@@ -1,0 +1,9 @@
+#root {
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+  --dark-gold:rgb(102, 51, 15);
+  --light-gold:chocolate;
+  --primary-color:rgb(26, 26, 26);
+  background-color: var(--primary-color);
+}

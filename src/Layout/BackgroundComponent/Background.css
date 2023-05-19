@@ -1,0 +1,24 @@
+.background-container{
+    width: 100vw;
+    height: 50vh;
+    background-image: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    /* Once you set justify content center, even the absolute child element that position absolute will be centered as well */
+    justify-content: center;
+    align-items: center;
+}
+
+.background-transparent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(26, 26, 26);
+    clip-path: polygon(0% 100%, 0% 100%, 100% 100%, 100% 50%);
+}
+

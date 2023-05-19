@@ -1,0 +1,19 @@
+.header-container{
+    background-color: rgb(173, 88, 26);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0rem;
+}
+
+.wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text h1{
+    margin: 0;
+    color: white;
+}
